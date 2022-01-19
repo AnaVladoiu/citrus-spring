@@ -1,3 +1,14 @@
+# User-specific stuff:
+.idea
+target/
+/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
 # Compiled class file
 *.class
 
