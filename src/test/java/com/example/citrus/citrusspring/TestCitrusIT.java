@@ -15,8 +15,8 @@ public class TestCitrusIT extends TestNGCitrusTestDesigner{
         echo("Today is: ${now}");
     }
 
-    @CitrusTest(name = "SampleJavaTest.sayHello")
-    public void sayHello() {
+    @CitrusTest(name = "Test.sayHi")
+    public void sayHi() {
         echo("Hello Citrus!");
     }
 }
