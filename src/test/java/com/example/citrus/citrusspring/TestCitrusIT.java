@@ -17,6 +17,8 @@ public class TestCitrusIT extends TestNGCitrusTestDesigner{
 
     @CitrusTest(name = "Test.sayHi")
     public void sayHi() {
-        echo("Hello Citrus!");
+        echo("#################################################################");
+        echo("###                             Hi Citrus!                   ####");
+        echo("#################################################################");
     }
 }

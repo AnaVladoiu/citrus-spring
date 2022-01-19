@@ -16,7 +16,7 @@
     <properties>
         <java.version>11</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <citrus.version>3.1.2</citrus.version>
+        <citrus.version>3.1.1</citrus.version>
         <!--    <citrus.version>2.7.5</citrus.version>-->
         <slf4j.version>1.7.25</slf4j.version>
         <testng.version>6.11</testng.version>
@@ -91,7 +91,7 @@
         <dependency>
             <groupId>com.consol.citrus</groupId>
             <artifactId>citrus-api</artifactId>
-            <version>3.1.2</version>
+            <version>${citrus.version}</version>
             <scope>test</scope>
         </dependency>
 
